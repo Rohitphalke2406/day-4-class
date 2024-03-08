@@ -1,0 +1,63 @@
+footer{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+.contact-container{
+    margin: 0 10rem;
+}
+
+.logo-container{
+    background-color: rgb(243, 243, 243);
+}
+
+.logo-container img{
+    height: 150px;
+    width: 150px;
+    margin: 4rem 23rem 1rem;
+    border-radius: 50%;
+}
+.logo-container img:hover{
+    opacity: 0.6;
+}
+
+.contact-container p{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+
+.contact-container ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+    margin: 2.5rem 3rem 0;
+}
+.contact-container ul li a{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-container ul li a:hover{
+    opacity: 0.4;
+}
+
+.social-media-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40vw;
+    font-size: 25px;
+    margin: 3rem 10rem 0 13rem;
+}
+.social-media-icons a{
+    color: black;
+    cursor: pointer;
+}
+
+.social-media-icons a:hover{
+    opacity: 0.6;
+}
